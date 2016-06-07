@@ -200,4 +200,5 @@ describe('AST utility functions', () => {
     const newDoc = replaceOperationDefinition(queryWithFragments, newQueryDef);
     assert.equal(print(newDoc), print(expectedNewQuery));
   });
+
 });
